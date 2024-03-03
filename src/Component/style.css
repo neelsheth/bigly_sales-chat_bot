@@ -1,0 +1,403 @@
+.bubble_style {
+    /* background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid orange; */
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    min-width: 200px;
+    cursor: pointer;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+    height: 5vh;
+    /* background-color: black; */
+}
+
+.logoGoogle {
+    height: 35px;
+    border-radius: 5px;
+}
+
+.googlelogo {
+    background-color: black;
+    border: none;
+}
+
+.flex_row {
+    display: flex;
+}
+
+.flex {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    /* background-color: rgb(146, 248, 250); */
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+.custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    /* border-bottom-left-radius: 0px; */
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.custom ul {
+    list-style-type: circle;
+}
+
+
+
+
+ .custom div {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#audio {
+    position: fixed;
+    right: 10px;
+    margin: 25px;
+}
+
+#audio button,
+.audio {
+
+    border-radius: 50%;
+}
+
+.logOut_btn {
+    background-color: rgba(0, 0, 0, 0.606);
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    /* padding: 15px; */
+    cursor: pointer;
+}
+
+.log_btn {
+    background-color: rgba(0, 0, 0, 0.606);
+    color: white;
+    border: 0px;
+    font-size: large;
+    /* padding: 15px; */
+    cursor: pointer;
+}
+
+.header_btns {
+    display: flex;
+    justify-content: center;
+    /* padding: 2vh; */
+    height: 5vh;
+    background-color: black;
+    align-items: center;
+
+
+}
+
+/* //css for header copy from old project*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    background-color: black;
+    background-color: black;
+    color: white;
+}
+
+.fblogo {
+    height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.circlephoto {
+    border-radius: 50%;
+    height: 35px;
+}
+
+
+
+
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeImg {
+    margin-top: 30px;
+    max-height: 500px;
+}
+
+.letsPlay {
+    font-size: larger;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(211, 47, 101);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.contactUs {
+    font-size: larger;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fontBolder {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.fontBold {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.circle {
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+}
+
+.questionCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+}
+
+.option {
+    margin: 5%;
+}
+
+.queBlock {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    /* width: 100vh;
+    height: 100vh; */
+}
+
+.flexcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexcolrev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+
+.shuffleRow {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.shuffleRowRev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.optionIdx {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(150, 255, 251);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.nextBtn {
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 180, 180);
+}
+
+.wrong {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(250, 64, 64);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.right {
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.timer {
+    background-color: rgb(245, 85, 85);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.timerclass {
+    margin: 15px;
+}
+
+.scoreClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.scoreInner {
+    background-color: aqua;
+    padding: 10%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.scorePrint {
+    font-size: 50px;
+}
+
+.scoreCloseBtn {
+    padding: 5px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    background-color: red;
+    font-size: 25px;
+
+
+}
+
+/* sign up */
+
+.popup {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+}
+
+.headingSignup {
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.aligncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.signupbtn {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(2, 230, 2);
+    font-weight: bolder;
+}
+
+
+.link {
+    margin-top: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.space {
+    margin-left: 10px;
+    margin-right: 10px;
+}
